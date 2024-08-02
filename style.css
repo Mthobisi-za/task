@@ -19,7 +19,6 @@ body {
     background-color: var(--bg-background);
     max-width: 100%;
     overflow-x: hidden;
-    /* cursor: none; */
 }
 
 .desktop_menu {
@@ -111,11 +110,6 @@ body {
 }
 
 
-/* .menu_items:hover+#circularcursor {
-    display: block;
-} */
-
-
 /* hero styles */
 
 .hero_content {
@@ -161,10 +155,7 @@ body {
 }
 
 .column_child:first-child {
-    /* display: flex; */
-    /* background-color: red; */
     height: 60vh;
-    /* flex-direction: column; */
 }
 
 .column_child:first-child .title {
@@ -188,10 +179,6 @@ body {
 }
 
 .column_child:last-child {
-    /* background-image: url('./assets/shapes/Shape\ hero\ next\ to\ img.png');
-    background-size: 200px;
-    background-repeat: no-repeat;
-    background-position: top; */
     height: 60vh;
 }
 
@@ -204,7 +191,6 @@ body {
 }
 
 .hero_column:last-child {
-    /* background-color: red; */
     text-align: center;
     display: flex;
     align-items: flex-start;
@@ -254,7 +240,6 @@ body {
 }
 
 .black-solid {
-    /* background-color: var(--black); */
     color: var(--white);
     background-image: url('./assets/bg/Canvas\ bg.png');
     background-size: cover;
@@ -268,7 +253,6 @@ body {
 .arrow_container {
     display: flex;
     align-items: flex-end;
-    /* background-color: red; */
     height: inherit;
     justify-content: center;
 }
@@ -326,7 +310,6 @@ body {
     display: flex;
     align-items: flex-end;
     justify-content: flex-start;
-    /* height: inherit; */
     flex-direction: column;
 }
 
@@ -379,14 +362,12 @@ body {
 }
 
 .you_column img {
-    /* max-height: 90vh; */
     line-height: 0px;
     padding: 0px;
     display: block;
 }
 
 .you_column:last-child {
-    /* background-color: red; */
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -470,7 +451,6 @@ body {
 
 .clothes div:first-child {
     text-align: center;
-    /* background-color: red; */
 }
 
 .clothes div:first-child div {
@@ -482,7 +462,6 @@ body {
     display: flex;
     align-items: flex-end;
     justify-content: flex-end;
-    /* background-color: #BEF502; */
 }
 
 .clothes .clothes_flex img {
@@ -522,7 +501,6 @@ body {
 }
 
 .bg_shape {
-    /* background-color: #30302F; */
     display: flex;
     background-image: url('./assets/shapes/your\ clothes\ shape.png');
     background-repeat: no-repeat;
@@ -721,10 +699,6 @@ footer {
 
 .black-solid {
     transition: all 0.35s cubic-bezier(1, 0, 0, 1);
-}
-
-.black-solid:hover {
-    /* background: none; */
 }
 
 .black-solid:hover::after,
